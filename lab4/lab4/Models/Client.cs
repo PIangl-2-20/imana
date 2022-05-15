@@ -1,0 +1,11 @@
+﻿using System.ComponentModel.DataAnnotations;
+namespace lab4.Models
+{
+    public class Client
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string MiddleName { get; set; }
+
+    }
+}
